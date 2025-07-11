@@ -3,7 +3,7 @@ class MyCircularQueue {
         int cap;
         int a[];
         int rear; 
-        int front;
+        int front; 
     public MyCircularQueue(int k) {
         this.cap = k;
         a = new int[cap];
