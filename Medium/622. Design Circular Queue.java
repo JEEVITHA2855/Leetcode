@@ -1,6 +1,6 @@
 class MyCircularQueue {
         int size;
-        int cap;
+        int cap; 
         int a[];
         int rear; 
         int front; 
