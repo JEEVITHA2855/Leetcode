@@ -9,3 +9,4 @@ class Solution {
 return sum+sumOfLeftLeaves(root.left)+sumOfLeftLeaves(root.right);
     }
 }
+
