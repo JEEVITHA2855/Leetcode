@@ -5,6 +5,7 @@ class Solution {
         Map<Node,Node> x = new HashMap<>();
         return dfs(node,x);
     }
+    
 
     private Node dfs(Node cur,Map<Node,Node> x) {
         if(x.containsKey(cur)) return x.get(cur);
