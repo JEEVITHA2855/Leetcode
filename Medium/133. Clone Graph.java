@@ -6,7 +6,6 @@ class Solution {
         return dfs(node,x);
     }
     
-
     private Node dfs(Node cur,Map<Node,Node> x) {
         if(x.containsKey(cur)) return x.get(cur);
 
