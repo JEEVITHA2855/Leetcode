@@ -9,4 +9,5 @@ if (height[left]<height[right]) left++;
 else right--;
  }
  return max;
-}}
+}
+}
