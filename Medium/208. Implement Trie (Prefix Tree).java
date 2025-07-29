@@ -2,7 +2,6 @@ class TrieNode {
     TrieNode[] child=new TrieNode[26];
     boolean isEnd=false;
 }
-
 class Trie{
     private TrieNode root;
     public Trie(){
