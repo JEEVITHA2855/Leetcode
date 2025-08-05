@@ -22,7 +22,6 @@ class Solution {
                 new_arr[k++] = nums2[j++];
             }
         }
-
         if (n%2==0) return (float)(new_arr[n/2-1] + new_arr[n/2])/2;
         else return new_arr[n/2];
     }
