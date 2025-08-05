@@ -6,7 +6,6 @@ class Solution {
         int[] new_arr = new int[n];
 
         int i=0,j=0,k=0;
-
         while (i<=n1 && j<=n2) {
             if (i == n1) {
                 while(j<n2) new_arr[k++] = nums2[j++];
