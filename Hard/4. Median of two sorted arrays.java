@@ -5,7 +5,7 @@ class Solution {
         int n = n1 + n2;
         int[] new_arr = new int[n];
 
-        int i=0, j=0, k=0;
+        int i=0,j=0, k=0;
 
         while (i<=n1 && j<=n2) {
             if (i == n1) {
