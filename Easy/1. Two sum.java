@@ -7,9 +7,10 @@ class Solution {
             return new int[]{map.get(res),i};
         }
         else{
-            map.put(nums[i],i);
+            map.put(nums[i],i); 
         }
     }
     return new int[]{-1,-1};
     }
 }
+
