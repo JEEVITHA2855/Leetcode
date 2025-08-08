@@ -4,7 +4,6 @@ class Solution {
     public double soupServings(int n) {
         return n > 4800 ? 1 : dfs((n + 24) / 25, (n + 24) / 25);
     }
-
 private double dfs(int i, int j) {
         if (i <= 0 && j <= 0) {
             return 0.5;
