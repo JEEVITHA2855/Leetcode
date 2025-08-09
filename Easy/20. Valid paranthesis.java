@@ -18,7 +18,6 @@ class Solution {
                 }
             }
         }
-
         return x.isEmpty();
     }
 }
