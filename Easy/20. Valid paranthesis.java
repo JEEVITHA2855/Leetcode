@@ -5,7 +5,7 @@ class Solution {
             char c = s.charAt(i);
 
             if (c == '{' || c == '[' || c == '(') {
-                x.push(c);
+                x.push(c); 
             } else {
                 if (x.isEmpty()) return false;
 
