@@ -2,7 +2,7 @@ class Solution {
     private double[][] f = new double[200][200];
 
     public double soupServings(int n) {
-        return n > 4800 ? 1 : dfs((n + 24) / 25, (n + 24) / 25);
+        return n > 4800 ? 1 : dfs((n +24) / 25, (n + 24) / 25);
     }
 private double dfs(int i, int j) {
         if (i <= 0 && j <= 0) {
