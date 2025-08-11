@@ -14,7 +14,7 @@ private double dfs(int i, int j) {
         if (j <= 0) {
             return 0; 
         }
-        if (f[i][j] > 0) {
+        if (f[i][j] > 0) { 
             return f[i][j];
         }
         double ans
