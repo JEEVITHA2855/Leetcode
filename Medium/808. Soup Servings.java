@@ -6,7 +6,7 @@ public double soupServings(int n) {
     }
 private double dfs(int i, int j) {
         if (i <= 0 && j <= 0) {
-            return 0.5;
+             return 0.5;
         }
         if (i <= 0) {
             return 1.0;
