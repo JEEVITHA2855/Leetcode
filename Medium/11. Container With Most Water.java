@@ -8,6 +8,6 @@ max=Math.max(max, minHeight*(right-left)) ;
 if (height[left]<height[right]) left++;
 else right--;
  }
- return max;
+ return ;
     }
 }
