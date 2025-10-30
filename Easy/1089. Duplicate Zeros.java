@@ -8,6 +8,7 @@ class Solution {
             if(arr[i]==0){
                 newarr[a++]=0;
             }
+            
         }
         for(int i=0;i<n;i++){
             arr[i]=newarr[i];
