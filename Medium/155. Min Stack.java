@@ -11,7 +11,6 @@ class MinStack {
             min.push(val);
         }
     }
-    
     public void pop() {
         if (!stack.isEmpty()) {
             int removed = stack.pop();
